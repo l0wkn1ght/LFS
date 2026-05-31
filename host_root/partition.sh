@@ -1,8 +1,8 @@
 #!/bin/bash
 set -euo pipefail
-# shellcheck source=../config/vars.sh
-# shellcheck disable=SC1091
-source ../config/vars.sh
+
+SCRIPT_DIR="$(cd "$dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "${SCRIPT_DIR}/../config/vars.sh"
 check_root
 
 echo "[INFO] Detecting available disks..."
