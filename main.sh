@@ -5,7 +5,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 echo "=============================================="
-echo "           LFS 12.2 BUILD START"
+echo "           LFS BUILD START (Tracking Stable)"
 echo "=============================================="
 echo ""
 

@@ -15,7 +15,7 @@ chmod -v a+wt "${SOURCES_DIR}"
 mkdir -pv "${TOOLS_DIR}"
 ln -sv "${TOOLS_DIR}" /
 
-echo "[INFO] Downloading LFS 12.2 base sources..."
+echo "[INFO] Downloading LFS base sources (stable)..."
 if ! wget --input-file=https://www.linuxfromscratch.org/lfs/views/stable/wget-list-sysv \
      --continue --directory-prefix="${SOURCES_DIR}"; then
     echo "Error: Failed to download LFS source list" >&2

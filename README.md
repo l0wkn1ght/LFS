@@ -1,6 +1,6 @@
-# LFS 12.2 Build Scripts
+# LFS Build Scripts (Tracking Stable)
 
-Automated Linux From Scratch 12.2 with Runit init system.
+Automated Linux From Scratch with Runit init system (tracking stable branch).
 
 ## Quick Start
 
